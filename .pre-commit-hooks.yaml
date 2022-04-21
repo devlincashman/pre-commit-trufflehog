@@ -1,0 +1,6 @@
+- id: trufflehog
+  name: TruffleHog
+  description: Finds leaked credentials in your code
+  entry: hooks/trufflehog.sh
+  language: script
+  require_serial: true
